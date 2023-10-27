@@ -1,0 +1,33 @@
+{
+  "name": "pixelopen/kirby-cookie-consent",
+  "type": "kirby-plugin",
+  "description": "A plugin for Kirby CMS to handle RGPD and Cookie Gestion with the tarteaucitronjs script",
+  "homepage": "https://github.com/Pixel-Open/kirby-cookie-consent",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pixel Open",
+      "homepage": "https://pixel-open.org/"
+    }
+  ],
+  "keywords": [
+    "kirby",
+    "kirby-cms",
+    "kirby-plugin"
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.2",
+    "getkirby/cms": "^3.9"
+  },
+  "extra": {
+    "installer-name": "kirby-cookie-consent"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "require-dev": {
+    "symplify/easy-coding-standard": "^12.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "kirby-cookie-consent",
+    "dependencies": {
+        "tarteaucitronjs": "^1.14.0"
+    }
+}
