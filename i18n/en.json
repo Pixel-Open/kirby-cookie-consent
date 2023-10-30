@@ -1,0 +1,32 @@
+{
+  "pixelopen.kirby-cookie-consent.tabs.cookie_consent": "Cookie Consent",
+
+  "pixelopen.kirby-cookie-consent.tabs.use_cookie": "Use cookie consent?",
+
+  "pixelopen.kirby-cookie-consent.tabs.google_tag_manager": "Google tag manager",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_ga": "Google analytics (ga.js)",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_gtag": "Google analytics (gtag.js)",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_universal": "Google analytics (universal)",
+  "pixelopen.kirby-cookie-consent.tabs.pixel_facebook": "Pixel Facebook",
+
+  "pixelopen.kirby-cookie-consent.tabs.privacy_url": "Privacy policy url",
+  "pixelopen.kirby-cookie-consent.tabs.body_position": "Position in body",
+  "pixelopen.kirby-cookie-consent.tabs.hashtag": "Open the panel with this hashtag",
+  "pixelopen.kirby-cookie-consent.tabs.cookie_name": "Cookie name",
+  "pixelopen.kirby-cookie-consent.tabs.banner_position": "Banner position",
+  "pixelopen.kirby-cookie-consent.tabs.group_service": "Group service by category",
+  "pixelopen.kirby-cookie-consent.tabs.show_alert_small": "Show the small banner on bottom right",
+  "pixelopen.kirby-cookie-consent.tabs.cookie_list": "Show the cookie list",
+  "pixelopen.kirby-cookie-consent.tabs.close_popup": "Show the option to close the popup",
+  "pixelopen.kirby-cookie-consent.tabs.show_icon": "Show cookie icon to manage cookies",
+  "pixelopen.kirby-cookie-consent.tabs.icon_position": "Position of the icon",
+  "pixelopen.kirby-cookie-consent.tabs.adblocker": "Show a Warning if an adblocker is detected",
+  "pixelopen.kirby-cookie-consent.tabs.deny_all_cta": "Show the deny all button",
+  "pixelopen.kirby-cookie-consent.tabs.accept_all_cta": "Show the accept all button when auto consent is disabled",
+  "pixelopen.kirby-cookie-consent.tabs.disable_auto_consent": "Disable auto consent",
+  "pixelopen.kirby-cookie-consent.tabs.handle_dnt_request": "Disallow all if Do Not Track",
+  "pixelopen.kirby-cookie-consent.tabs.remove_credit": "Remove credit link",
+  "pixelopen.kirby-cookie-consent.tabs.more_info_link": "Show more info link",
+  "pixelopen.kirby-cookie-consent.tabs.mandatory": "Show a message about mandatory cookies",
+  "pixelopen.kirby-cookie-consent.tabs.mandatory_cta": "Show the disabled accept button when mandatory on"
+}

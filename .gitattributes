@@ -8,6 +8,7 @@
 ecs.php export-ignore
 composer.lock export-ignore
 package-lock.json export-ignore
+package.json export-ignore
 kirby/ export-ignore
 vendor/ export-ignore
 node_modules/ export-ignore

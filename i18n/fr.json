@@ -1,0 +1,32 @@
+{
+  "pixelopen.kirby-cookie-consent.tabs.cookie_consent": "Gestion des cookies",
+
+  "pixelopen.kirby-cookie-consent.tabs.use_cookie": "Utiliser la gestion des cookies ?",
+
+  "pixelopen.kirby-cookie-consent.tabs.google_tag_manager": "Google tag manager",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_ga": "Google analytics (ga.js)",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_gtag": "Google analytics (gtag.js)",
+  "pixelopen.kirby-cookie-consent.tabs.google_analytics_universal": "Google analytics (universal)",
+  "pixelopen.kirby-cookie-consent.tabs.pixel_facebook": "Pixel Facebook",
+
+  "pixelopen.kirby-cookie-consent.tabs.privacy_url": "URL de confidentialité",
+  "pixelopen.kirby-cookie-consent.tabs.body_position": "Position dans le body",
+  "pixelopen.kirby-cookie-consent.tabs.hashtag": "Ouvrir le panneau avec ce hastag",
+  "pixelopen.kirby-cookie-consent.tabs.cookie_name": "Nom du cookie",
+  "pixelopen.kirby-cookie-consent.tabs.banner_position": "Position de la bannière",
+  "pixelopen.kirby-cookie-consent.tabs.group_service": "Grouper les services par catégories ?",
+  "pixelopen.kirby-cookie-consent.tabs.show_alert_small": "Afficher une petite bannière (en bas à droite) ?",
+  "pixelopen.kirby-cookie-consent.tabs.cookie_list": "Afficher la liste des cookies ?",
+  "pixelopen.kirby-cookie-consent.tabs.close_popup": "Afficher l'option pour fermer la bannière",
+  "pixelopen.kirby-cookie-consent.tabs.show_icon": "Afficher l'icone ?",
+  "pixelopen.kirby-cookie-consent.tabs.icon_position": "Position de l'icone",
+  "pixelopen.kirby-cookie-consent.tabs.adblocker": "Détecter un bloqueur de publicité ?",
+  "pixelopen.kirby-cookie-consent.tabs.deny_all_cta": "Afficher un bouton pour rejeter tous les cookies ?",
+  "pixelopen.kirby-cookie-consent.tabs.accept_all_cta": "Afficher un bouton pour accepter tous les cookies ?",
+  "pixelopen.kirby-cookie-consent.tabs.disable_auto_consent": "Désactiver l'auto consentement ?",
+  "pixelopen.kirby-cookie-consent.tabs.handle_dnt_request": "Gérer les requêtes 'Ne pas tracer' ?",
+  "pixelopen.kirby-cookie-consent.tabs.remove_credit": "Retirer le lien des crédits",
+  "pixelopen.kirby-cookie-consent.tabs.more_info_link": "Afficher le lien 'Plus d'info' ?",
+  "pixelopen.kirby-cookie-consent.tabs.mandatory": "Afficher un message à propos des cookies obligatoires ?",
+  "pixelopen.kirby-cookie-consent.tabs.mandatory_cta": "Afficher le bouton 'Accepter' désactivé quand le message est activé ?"
+}

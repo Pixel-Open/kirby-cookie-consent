@@ -1,5 +1,8 @@
 {
     "name": "kirby-cookie-consent",
+    "scripts": {
+        "install": "mkdir -p assets; cp -r node_modules/tarteaucitronjs assets/"
+    },
     "dependencies": {
         "tarteaucitronjs": "^1.14.0"
     }

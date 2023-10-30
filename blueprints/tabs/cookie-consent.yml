@@ -1,0 +1,173 @@
+label: pixelopen.kirby-cookie-consent.tabs.cookie_consent
+icon: food
+
+sections:
+  cookie:
+    type: fields
+    fields:
+      use_cookie:
+        label: pixelopen.kirby-cookie-consent.tabs.use_cookie
+        extends: utils/toggle 
+
+  service:
+    when:
+      use_cookie: true
+    type: fields
+    fields:
+      cookie_consent_services_line:
+        type: line
+      google_tag_manager:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.google_tag_manager
+        type: text
+      google_analytics_ga:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.google_analytics_ga
+        type: text
+      google_analytics_gtag:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.google_analytics_gtag
+        type: text
+      google_analytics_universal:
+        width: 1/2
+        label: pixelopen.kirby-cookie-consent.tabs.google_analytics_universal
+        type: text
+      pixel_facebook:
+        width: 1/2
+        label: pixelopen.kirby-cookie-consent.tabs.pixel_facebook
+        type: text
+  
+  parameter:
+    when:
+      use_cookie: true
+    type: fields
+    fields:
+      cookie_consent_parameters_line:
+        type: line
+      privacy_url:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.privacy_url
+        type: text
+      body_position:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.body_position
+        type: select
+        required: true
+        default: bottom
+        options:
+          top:
+            en: "Top"
+            fr: "En haut"
+          bottom:
+            en: "Bottom"
+            fr: "En bas"
+      hashtag:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.hashtag
+        type: text
+        required: true
+
+      cookie_name:
+        width: 1/2
+        label: pixelopen.kirby-cookie-consent.tabs.cookie_name
+        type: text
+        required: true
+      banner_position:
+        width: 1/2
+        label: pixelopen.kirby-cookie-consent.tabs.banner_position
+        type: select
+        required: true
+        default: popup
+        options:
+          top:
+            en: "Top"
+            fr: "En haut"
+          bottom:
+            en: "Bottom"
+            fr: "En bas"
+          middle:
+            en: "Middle"
+            fr: "Au milieu"
+          popup:
+            en: "Popup"
+            fr: "Popup"
+
+      group_service:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.group_service
+        extends: utils/toggle
+      show_alert_small:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.show_alert_small
+        extends: utils/toggle
+      cookie_list:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.cookie_list
+        extends: utils/toggle
+
+      close_popup:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.close_popup
+        extends: utils/toggle
+      show_icon:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.show_icon
+        extends: utils/toggle
+      icon_position:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.icon_position
+        type: select
+        required: true
+        default: BottomRight
+        options:
+          BottomRight:
+            en: "Bottom right"
+            fr: "En bas à droite"
+          BottomLeft:
+            en: "Bottom left"
+            fr: "En bas à gauche"
+          TopRight:
+            en: "Top right"
+            fr: "En haut à droite"
+          TopLeft:
+            en: "Top left"
+            fr: "En haut à gauche"
+          
+      adblocker:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.adblocker
+        extends: utils/toggle
+      deny_all_cta:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.deny_all_cta
+        extends: utils/toggle
+      accept_all_cta:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.accept_all_cta
+        extends: utils/toggle
+
+      disable_auto_consent:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.disable_auto_consent
+        extends: utils/toggle
+      handle_dnt_request:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.handle_dnt_request
+        extends: utils/toggle
+      remove_credit:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.remove_credit
+        extends: utils/toggle
+
+      more_info_link:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.more_info_link
+        extends: utils/toggle
+      mandatory:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.mandatory
+        extends: utils/toggle
+      mandatory_cta:
+        width: 1/3
+        label: pixelopen.kirby-cookie-consent.tabs.mandatory_cta
+        extends: utils/toggle

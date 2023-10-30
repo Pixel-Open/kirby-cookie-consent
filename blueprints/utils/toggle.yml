@@ -1,0 +1,8 @@
+type: toggle
+text:
+  - en: "No"
+    fr: "Non"
+    de: "Nein"
+  - en: "Yes"
+    fr: "Oui"
+    de: "Ja"
